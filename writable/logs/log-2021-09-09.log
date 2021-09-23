@@ -1,0 +1,111 @@
+CRITICAL - 2021-09-09 02:27:34 --> Call to undefined method App\Models\UserModel::getAll
+#0 /home/condruwn/public_html/app/Controllers/Home.php(90): CodeIgniter\Model->__call('getAll', Array)
+#1 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Home->cron_job()
+#2 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-09 03:03:48 --> Object of class stdClass could not be converted to string
+#0 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Home->cron_job()
+#1 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-09 03:45:49 --> Trying to get property 'subscription' of non-object
+#0 /home/condruwn/public_html/app/Controllers/Home.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/condruwn/...', 100, Array)
+#1 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Home->cron_job()
+#2 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-09 03:46:45 --> Trying to access array offset on value of type null
+#0 /home/condruwn/public_html/app/Controllers/Admin.php(1287): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/condruwn/...', 1287, Array)
+#1 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->deactivated()
+#2 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-09 06:26:44 --> Trying to access array offset on value of type null
+#0 /home/condruwn/public_html/app/Controllers/Users.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/condruwn/...', 27, Array)
+#1 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Users->index()
+#2 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-09 11:49:58 --> syntax error, unexpected 'if' (T_IF)
+#0 /home/condruwn/public_html/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('home/cron_job')
+#1 /home/condruwn/public_html/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('home/cron_job')
+#2 /home/condruwn/public_html/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-09 11:54:14 --> syntax error, unexpected 'if' (T_IF)
+#0 /home/condruwn/public_html/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('home/cron_job')
+#1 /home/condruwn/public_html/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('home/cron_job')
+#2 /home/condruwn/public_html/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-09 13:33:43 --> syntax error, unexpected '<=' (T_IS_SMALLER_OR_EQUAL)
+#0 /home/condruwn/public_html/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/approveDe...')
+#1 /home/condruwn/public_html/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('admin/approveDe...')
+#2 /home/condruwn/public_html/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-09 13:33:52 --> syntax error, unexpected '<=' (T_IS_SMALLER_OR_EQUAL)
+#0 /home/condruwn/public_html/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/approveDe...')
+#1 /home/condruwn/public_html/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('admin/approveDe...')
+#2 /home/condruwn/public_html/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-09 13:44:36 --> syntax error, unexpected '"<="' (T_CONSTANT_ENCAPSED_STRING)
+#0 /home/condruwn/public_html/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/approveDe...')
+#1 /home/condruwn/public_html/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('admin/approveDe...')
+#2 /home/condruwn/public_html/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-09 13:46:13 --> syntax error, unexpected '<=' (T_IS_SMALLER_OR_EQUAL)
+#0 /home/condruwn/public_html/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/approveDe...')
+#1 /home/condruwn/public_html/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('admin/approveDe...')
+#2 /home/condruwn/public_html/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-09 13:47:05 --> syntax error, unexpected '<=' (T_IS_SMALLER_OR_EQUAL)
+#0 /home/condruwn/public_html/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/approveDe...')
+#1 /home/condruwn/public_html/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('admin/approveDe...')
+#2 /home/condruwn/public_html/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-09 13:48:12 --> syntax error, unexpected '<=' (T_IS_SMALLER_OR_EQUAL)
+#0 /home/condruwn/public_html/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/approveDe...')
+#1 /home/condruwn/public_html/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('admin/approveDe...')
+#2 /home/condruwn/public_html/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-09 14:28:59 --> Undefined index: user
+#0 /home/condruwn/public_html/app/Controllers/Admin.php(1155): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/condruwn/...', 1155, Array)
+#1 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->approveDeposit()
+#2 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-09 14:36:19 --> Trying to get property 'wallet_bal' of non-object
+#0 /home/condruwn/public_html/app/Controllers/Admin.php(1140): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/condruwn/...', 1140, Array)
+#1 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->approveDeposit()
+#2 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-09 16:13:04 --> Trying to access array offset on value of type null
+#0 /home/condruwn/public_html/app/Controllers/Users.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/condruwn/...', 27, Array)
+#1 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Users->index()
+#2 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

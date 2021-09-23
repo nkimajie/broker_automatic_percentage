@@ -1,0 +1,107 @@
+CRITICAL - 2021-05-23 12:29:41 --> Call to a member function getDeclinedWithdrawal() on null
+#0 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Admin->settings()
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-23 12:30:23 --> Undefined variable: invested_model
+#0 /home/genurgvd/trademagoptions.online/app/Controllers/Admin.php(505): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/genurgvd/...', 505, Array)
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Admin->settings()
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-23 12:30:52 --> Undefined variable: user
+#0 /home/genurgvd/trademagoptions.online/app/Views/admin/settings.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/genurgvd/...', 64, Array)
+#1 /home/genurgvd/trademagoptions.online/system/View/View.php(220): include('/home/genurgvd/...')
+#2 /home/genurgvd/trademagoptions.online/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/genurgvd/trademagoptions.online/system/Common.php(1217): CodeIgniter\View\View->render('admin/settings', Array, true)
+#4 /home/genurgvd/trademagoptions.online/app/Controllers/Admin.php(508): view('admin/settings', Array)
+#5 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Admin->settings()
+#6 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-23 12:31:21 --> syntax error, unexpected '?>'
+#0 /home/genurgvd/trademagoptions.online/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/genurgvd/trademagoptions.online/system/Common.php(1217): CodeIgniter\View\View->render('admin/settings', Array, true)
+#2 /home/genurgvd/trademagoptions.online/app/Controllers/Admin.php(508): view('admin/settings', Array)
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Admin->settings()
+#4 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-23 12:38:01 --> Too few arguments to function App\Models\SettingsModel::updateOne(), 1 passed in /home/genurgvd/trademagoptions.online/app/Controllers/Admin.php on line 521 and exactly 2 expected
+#0 /home/genurgvd/trademagoptions.online/app/Controllers/Admin.php(521): App\Models\SettingsModel->updateOne(Array)
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Admin->settingsPost()
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-05-23 13:00:12 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in /home/genurgvd/trademagoptions.online/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/genurgvd/trademagoptions.online/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /home/genurgvd/trademagoptions.online/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/genurgvd/trademagoptions.online/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/genurgvd/trademagoptions.online/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/genurgvd/trademagoptions.online/app/Models/SettingsModel.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/genurgvd/trademagoptions.online/app/Controllers/Admin.php(505): App\Models\SettingsModel->getOne(Array)
+#6 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Admin->settings()
+#7 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-23 13:00:12 --> Unknown column 'id' in 'where clause'
+#0 /home/genurgvd/trademagoptions.online/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /home/genurgvd/trademagoptions.online/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/genurgvd/trademagoptions.online/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/genurgvd/trademagoptions.online/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/genurgvd/trademagoptions.online/app/Models/SettingsModel.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/genurgvd/trademagoptions.online/app/Controllers/Admin.php(505): App\Models\SettingsModel->getOne(Array)
+#6 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Admin->settings()
+#7 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-05-23 13:01:20 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in /home/genurgvd/trademagoptions.online/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/genurgvd/trademagoptions.online/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /home/genurgvd/trademagoptions.online/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/genurgvd/trademagoptions.online/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/genurgvd/trademagoptions.online/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/genurgvd/trademagoptions.online/app/Models/SettingsModel.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/genurgvd/trademagoptions.online/app/Controllers/Admin.php(505): App\Models\SettingsModel->getOne(Array)
+#6 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Admin->settings()
+#7 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-23 13:01:20 --> Unknown column 'id' in 'where clause'
+#0 /home/genurgvd/trademagoptions.online/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /home/genurgvd/trademagoptions.online/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/genurgvd/trademagoptions.online/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/genurgvd/trademagoptions.online/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/genurgvd/trademagoptions.online/app/Models/SettingsModel.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/genurgvd/trademagoptions.online/app/Controllers/Admin.php(505): App\Models\SettingsModel->getOne(Array)
+#6 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Admin->settings()
+#7 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-23 13:01:46 --> Undefined variable: currentData
+#0 /home/genurgvd/trademagoptions.online/app/Views/admin/settings.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/genurgvd/...', 64, Array)
+#1 /home/genurgvd/trademagoptions.online/system/View/View.php(220): include('/home/genurgvd/...')
+#2 /home/genurgvd/trademagoptions.online/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/genurgvd/trademagoptions.online/system/Common.php(1217): CodeIgniter\View\View->render('admin/settings', Array, true)
+#4 /home/genurgvd/trademagoptions.online/app/Controllers/Admin.php(508): view('admin/settings', Array)
+#5 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Admin->settings()
+#6 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-23 13:11:49 --> Class 'App\Controllers\SettingsModel' not found
+#0 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Users->deposit()
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

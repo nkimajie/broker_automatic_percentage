@@ -1,0 +1,50 @@
+CRITICAL - 2021-05-07 13:50:52 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 /Applications/XAMPP/xamppfiles/htdocs/trademagoptions/system/CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 /Applications/XAMPP/xamppfiles/htdocs/trademagoptions/system/CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /Applications/XAMPP/xamppfiles/htdocs/trademagoptions/system/bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 /Applications/XAMPP/xamppfiles/htdocs/trademagoptions/spark(53): require('/Applications/X...')
+#4 {main}
+CRITICAL - 2021-05-07 15:01:24 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 /Applications/XAMPP/xamppfiles/htdocs/trademagoptions/system/CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 /Applications/XAMPP/xamppfiles/htdocs/trademagoptions/system/CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /Applications/XAMPP/xamppfiles/htdocs/trademagoptions/system/bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 /Applications/XAMPP/xamppfiles/htdocs/trademagoptions/spark(53): require('/Applications/X...')
+#4 {main}
+CRITICAL - 2021-05-07 15:03:25 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 /Applications/XAMPP/xamppfiles/htdocs/trademagoptions/system/CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 /Applications/XAMPP/xamppfiles/htdocs/trademagoptions/system/CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /Applications/XAMPP/xamppfiles/htdocs/trademagoptions/system/bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 /Applications/XAMPP/xamppfiles/htdocs/trademagoptions/spark(53): require('/Applications/X...')
+#4 {main}
+CRITICAL - 2021-05-07 15:08:28 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 /Applications/XAMPP/xamppfiles/htdocs/trademagoptions/system/CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 /Applications/XAMPP/xamppfiles/htdocs/trademagoptions/system/CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /Applications/XAMPP/xamppfiles/htdocs/trademagoptions/system/bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 /Applications/XAMPP/xamppfiles/htdocs/trademagoptions/spark(53): require('/Applications/X...')
+#4 {main}
+CRITICAL - 2021-05-07 07:47:33 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /home/genurgvd/trademagoptions.online/system/bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 /home/genurgvd/trademagoptions.online/public/index.php(35): require('/home/genurgvd/...')
+#4 {main}
+CRITICAL - 2021-05-07 16:51:21 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 /home/genurgvd/trademagoptions.online/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home/genurgvd/...')
+#1 /home/genurgvd/trademagoptions.online/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-07 16:53:58 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 /home/genurgvd/trademagoptions.online/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home/genurgvd/...')
+#1 /home/genurgvd/trademagoptions.online/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}

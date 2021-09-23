@@ -1,0 +1,38 @@
+CRITICAL - 2021-05-16 09:03:58 --> syntax error, unexpected '$result' (T_VARIABLE), expecting identifier (T_STRING)
+#0 /home/genurgvd/trademagoptions.online/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home/genurgvd/...')
+#1 /home/genurgvd/trademagoptions.online/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Plan...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Plan...')
+#3 /home/genurgvd/trademagoptions.online/app/Controllers/Users.php(170): spl_autoload_call('App\\Models\\Plan...')
+#4 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Users->deposit()
+#5 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-16 09:05:21 --> Class 'App\Models\PlanModel' not found
+#0 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Users->deposit()
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-16 20:29:34 --> Trying to get property 'firstname' of non-object
+#0 /home/genurgvd/trademagoptions.online/app/Views/users/deposit.php(298): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/genurgvd/...', 298, Array)
+#1 /home/genurgvd/trademagoptions.online/system/View/View.php(220): include('/home/genurgvd/...')
+#2 /home/genurgvd/trademagoptions.online/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/genurgvd/trademagoptions.online/system/Common.php(1217): CodeIgniter\View\View->render('users/deposit', Array, true)
+#4 /home/genurgvd/trademagoptions.online/app/Controllers/Users.php(175): view('users/deposit', Array)
+#5 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Users->deposit()
+#6 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-16 20:29:40 --> Trying to get property 'account_status' of non-object
+#0 /home/genurgvd/trademagoptions.online/app/Views/users/index.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/genurgvd/...', 52, Array)
+#1 /home/genurgvd/trademagoptions.online/system/View/View.php(220): include('/home/genurgvd/...')
+#2 /home/genurgvd/trademagoptions.online/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/genurgvd/trademagoptions.online/system/Common.php(1217): CodeIgniter\View\View->render('users/index', Array, true)
+#4 /home/genurgvd/trademagoptions.online/app/Controllers/Users.php(30): view('users/index', Array)
+#5 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Users->index()
+#6 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

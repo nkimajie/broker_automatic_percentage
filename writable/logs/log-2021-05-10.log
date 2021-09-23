@@ -1,0 +1,224 @@
+CRITICAL - 2021-05-10 03:45:23 --> Call to undefined function App\Controllers\send_mail()
+#0 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Auth->register()
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-10 03:06:22 --> syntax error, unexpected ')'
+#0 /home/genurgvd/trademagoptions.online/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('auth/register')
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('auth/register')
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-05-10 03:08:29 --> mysqli_sql_exception: Unknown column 'country' in 'field list' in /home/genurgvd/trademagoptions.online/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/genurgvd/trademagoptions.online/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 /home/genurgvd/trademagoptions.online/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 /home/genurgvd/trademagoptions.online/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 /home/genurgvd/trademagoptions.online/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 /home/genurgvd/trademagoptions.online/system/Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/genurgvd/trademagoptions.online/system/BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 /home/genurgvd/trademagoptions.online/system/Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/genurgvd/trademagoptions.online/app/Controllers/Auth.php(57): CodeIgniter\Model->insert(Array)
+#8 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Auth->register()
+#9 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-10 03:08:29 --> Unknown column 'country' in 'field list'
+#0 /home/genurgvd/trademagoptions.online/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 /home/genurgvd/trademagoptions.online/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 /home/genurgvd/trademagoptions.online/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 /home/genurgvd/trademagoptions.online/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 /home/genurgvd/trademagoptions.online/system/Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/genurgvd/trademagoptions.online/system/BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 /home/genurgvd/trademagoptions.online/system/Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/genurgvd/trademagoptions.online/app/Controllers/Auth.php(57): CodeIgniter\Model->insert(Array)
+#8 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Auth->register()
+#9 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-10 03:10:36 --> Call to undefined function App\Controllers\send_mail()
+#0 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Auth->register()
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-10 03:14:16 --> syntax error, unexpected '>'
+#0 /home/genurgvd/trademagoptions.online/system/Controller.php(92): helper(Array)
+#1 /home/genurgvd/trademagoptions.online/app/Controllers/BaseController.php(42): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#4 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-10 03:14:56 --> Using $this when not in object context
+#0 /home/genurgvd/trademagoptions.online/system/Common.php(698): include_once()
+#1 /home/genurgvd/trademagoptions.online/system/Controller.php(92): helper(Array)
+#2 /home/genurgvd/trademagoptions.online/app/Controllers/BaseController.php(42): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-10 03:15:41 --> Undefined variable: CI
+#0 /home/genurgvd/trademagoptions.online/app/Helpers/mail_helper.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/genurgvd/...', 34, Array)
+#1 /home/genurgvd/trademagoptions.online/system/Common.php(698): include_once('/home/genurgvd/...')
+#2 /home/genurgvd/trademagoptions.online/system/Controller.php(92): helper(Array)
+#3 /home/genurgvd/trademagoptions.online/app/Controllers/BaseController.php(42): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-10 03:18:33 --> syntax error, unexpected 'instance' (T_STRING), expecting '['
+#0 /home/genurgvd/trademagoptions.online/system/Controller.php(92): helper(Array)
+#1 /home/genurgvd/trademagoptions.online/app/Controllers/BaseController.php(42): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#4 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-10 03:18:51 --> syntax error, unexpected 'instance' (T_STRING), expecting '['
+#0 /home/genurgvd/trademagoptions.online/system/Controller.php(92): helper(Array)
+#1 /home/genurgvd/trademagoptions.online/app/Controllers/BaseController.php(42): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#4 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-10 03:19:47 --> Undefined variable: CI
+#0 /home/genurgvd/trademagoptions.online/app/Helpers/mail_helper.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/genurgvd/...', 34, Array)
+#1 /home/genurgvd/trademagoptions.online/system/Common.php(698): include_once('/home/genurgvd/...')
+#2 /home/genurgvd/trademagoptions.online/system/Controller.php(92): helper(Array)
+#3 /home/genurgvd/trademagoptions.online/app/Controllers/BaseController.php(42): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-10 03:21:33 --> Too few arguments to function send_mail(), 0 passed in /home/genurgvd/trademagoptions.online/app/Controllers/Auth.php on line 60 and exactly 4 expected
+#0 /home/genurgvd/trademagoptions.online/app/Controllers/Auth.php(60): send_mail()
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Auth->register()
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-10 03:27:42 --> Too few arguments to function send_mail(), 0 passed in /home/genurgvd/trademagoptions.online/app/Controllers/Auth.php on line 66 and exactly 4 expected
+#0 /home/genurgvd/trademagoptions.online/app/Controllers/Auth.php(66): send_mail()
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Auth->register()
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-10 03:30:01 --> Call to undefined function get_instance()
+#0 /home/genurgvd/trademagoptions.online/app/Controllers/Auth.php(66): send_mail('joshuauzor10@gm...', 'Account Activat...', 'Action', 'Dear Joshua Uzo...')
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Auth->register()
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-10 03:38:28 --> Undefined variable: email
+#0 /home/genurgvd/trademagoptions.online/app/Controllers/Auth.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/genurgvd/...', 66, Array)
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Auth->register()
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-10 03:48:26 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 /home/genurgvd/trademagoptions.online/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('auth/register')
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('auth/register')
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-10 03:50:36 --> syntax error, unexpected '$err' (T_VARIABLE)
+#0 /home/genurgvd/trademagoptions.online/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('auth/register')
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('auth/register')
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-10 03:51:49 --> Argument 2 passed to view() must be of the type array, string given, called in /home/genurgvd/trademagoptions.online/app/Controllers/Auth.php on line 101
+#0 /home/genurgvd/trademagoptions.online/app/Controllers/Auth.php(101): view('landing/registe...', '220 smtp.gmail....')
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Auth->register()
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-10 04:01:51 --> Undefined variable: session
+#0 /home/genurgvd/trademagoptions.online/app/Controllers/Auth.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/genurgvd/...', 75, Array)
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Auth->register()
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-10 04:27:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 /home/genurgvd/trademagoptions.online/app/Controllers/Auth.php(111): App\Models\UserModel->getOne('d')
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Auth->login()
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-10 04:30:18 --> Too few arguments to function App\Models\UserModel::__construct(), 0 passed in /home/genurgvd/trademagoptions.online/app/Controllers/Auth.php on line 110 and exactly 1 expected
+#0 /home/genurgvd/trademagoptions.online/app/Controllers/Auth.php(110): App\Models\UserModel->__construct()
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Auth->login()
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-10 09:57:56 --> Too few arguments to function App\Models\UserModel::__construct(), 0 passed in /home/genurgvd/trademagoptions.online/app/Controllers/Auth.php on line 110 and exactly 1 expected
+#0 /home/genurgvd/trademagoptions.online/app/Controllers/Auth.php(110): App\Models\UserModel->__construct()
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Auth->login()
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-10 10:01:15 --> Undefined variable: db
+#0 /home/genurgvd/trademagoptions.online/app/Models/UserModel.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/genurgvd/...', 31, Array)
+#1 /home/genurgvd/trademagoptions.online/app/Controllers/Auth.php(111): App\Models\UserModel->getOne('d')
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Auth->login()
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-10 10:24:13 --> syntax error, unexpected '$db' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /home/genurgvd/trademagoptions.online/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home/genurgvd/...')
+#1 /home/genurgvd/trademagoptions.online/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 /home/genurgvd/trademagoptions.online/app/Controllers/Auth.php(110): spl_autoload_call('App\\Models\\User...')
+#4 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Auth->login()
+#5 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-10 10:36:50 --> syntax error, unexpected ''email'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 /home/genurgvd/trademagoptions.online/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('auth/login')
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('auth/login')
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-10 10:37:19 --> syntax error, unexpected '}', expecting variable (T_VARIABLE) or '{' or '$'
+#0 /home/genurgvd/trademagoptions.online/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('auth/login')
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('auth/login')
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-10 10:38:37 --> syntax error, unexpected 'print_r' (T_STRING), expecting ',' or ';'
+#0 /home/genurgvd/trademagoptions.online/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('auth/login')
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('auth/login')
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-10 11:50:59 --> Use of undefined constant user - assumed 'user' (this will throw an Error in a future version of PHP)
+#0 /home/genurgvd/trademagoptions.online/app/Controllers/Auth.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home/genurgvd/...', 113, Array)
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Auth->login()
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

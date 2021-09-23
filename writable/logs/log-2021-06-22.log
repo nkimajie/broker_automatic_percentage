@@ -1,0 +1,41 @@
+CRITICAL - 2021-06-22 06:57:43 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\btc\app\Controllers\Users.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 138)
+#1 C:\xampp\htdocs\btc\system\CodeIgniter.php(936): App\Controllers\Users->profile()
+#2 C:\xampp\htdocs\btc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\btc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\btc\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-22 06:58:03 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\btc\app\Controllers\Users.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 66)
+#1 C:\xampp\htdocs\btc\system\CodeIgniter.php(936): App\Controllers\Users->verify()
+#2 C:\xampp\htdocs\btc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\btc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\btc\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-22 09:57:38 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\btc\app\Controllers\Users.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 66)
+#1 C:\xampp\htdocs\btc\system\CodeIgniter.php(936): App\Controllers\Users->verify()
+#2 C:\xampp\htdocs\btc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\btc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\btc\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-22 16:48:44 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\btc\app\Controllers\Admin.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\btc\system\CodeIgniter.php(936): App\Controllers\Admin->index()
+#2 C:\xampp\htdocs\btc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\btc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\btc\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-06-22 22:36:51 --> mysqli_sql_exception: Table 'xtrehfuf_idealbitcoin.users' doesn't exist in /home/xtrehfuf/idealbitcoinminer.com/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/xtrehfuf/idealbitcoinminer.com/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /home/xtrehfuf/idealbitcoinminer.com/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/xtrehfuf/idealbitcoinminer.com/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/xtrehfuf/idealbitcoinminer.com/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/xtrehfuf/idealbitcoinminer.com/app/Models/UserModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/xtrehfuf/idealbitcoinminer.com/app/Controllers/Auth.php(111): App\Models\UserModel->getOne(Array)
+#6 /home/xtrehfuf/idealbitcoinminer.com/system/CodeIgniter.php(936): App\Controllers\Auth->login()
+#7 /home/xtrehfuf/idealbitcoinminer.com/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 /home/xtrehfuf/idealbitcoinminer.com/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/xtrehfuf/idealbitcoinminer.com/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}

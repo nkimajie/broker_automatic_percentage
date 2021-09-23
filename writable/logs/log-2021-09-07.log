@@ -1,0 +1,136 @@
+CRITICAL - 2021-09-07 16:43:29 --> Undefined property: stdClass::$name
+#0 /home/condruwn/public_html/app/Views/user/profile.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/condruwn/...', 52, Array)
+#1 /home/condruwn/public_html/system/View/View.php(220): include('/home/condruwn/...')
+#2 /home/condruwn/public_html/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/condruwn/public_html/system/Common.php(1217): CodeIgniter\View\View->render('user/profile', Array, true)
+#4 /home/condruwn/public_html/app/Controllers/Users.php(646): view('user/profile', Array)
+#5 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Users->profile()
+#6 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-07 22:03:34 --> Undefined variable: user_model
+#0 /home/condruwn/public_html/app/Controllers/Admin.php(1148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/condruwn/...', 1148, Array)
+#1 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->getdata()
+#2 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-07 22:04:20 --> Undefined variable: session
+#0 /home/condruwn/public_html/app/Controllers/Admin.php(1149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/condruwn/...', 1149, Array)
+#1 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->getdata()
+#2 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-07 22:05:19 --> Undefined property: stdClass::$name
+#0 /home/condruwn/public_html/app/Views/user/profile.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/condruwn/...', 52, Array)
+#1 /home/condruwn/public_html/system/View/View.php(220): include('/home/condruwn/...')
+#2 /home/condruwn/public_html/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/condruwn/public_html/system/Common.php(1217): CodeIgniter\View\View->render('user/profile', Array, true)
+#4 /home/condruwn/public_html/app/Controllers/Users.php(646): view('user/profile', Array)
+#5 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Users->profile()
+#6 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-07 22:05:52 --> Undefined property: stdClass::$name
+#0 /home/condruwn/public_html/app/Views/user/profile.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/condruwn/...', 52, Array)
+#1 /home/condruwn/public_html/system/View/View.php(220): include('/home/condruwn/...')
+#2 /home/condruwn/public_html/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/condruwn/public_html/system/Common.php(1217): CodeIgniter\View\View->render('user/profile', Array, true)
+#4 /home/condruwn/public_html/app/Controllers/Users.php(646): view('user/profile', Array)
+#5 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Users->profile()
+#6 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-07 22:06:10 --> Undefined property: stdClass::$name
+#0 /home/condruwn/public_html/app/Views/user/profile.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/condruwn/...', 52, Array)
+#1 /home/condruwn/public_html/system/View/View.php(220): include('/home/condruwn/...')
+#2 /home/condruwn/public_html/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/condruwn/public_html/system/Common.php(1217): CodeIgniter\View\View->render('user/profile', Array, true)
+#4 /home/condruwn/public_html/app/Controllers/Users.php(646): view('user/profile', Array)
+#5 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Users->profile()
+#6 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-07 22:41:06 --> Cannot use object of type stdClass as array
+#0 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->approveDeposit()
+#1 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-07 22:48:07 --> syntax error, unexpected ')'
+#0 /home/condruwn/public_html/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/approveDe...')
+#1 /home/condruwn/public_html/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('admin/approveDe...')
+#2 /home/condruwn/public_html/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-07 22:49:27 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::update() must be of the type array or null, int given, called in /home/condruwn/public_html/app/Models/UserModel.php on line 44
+#0 /home/condruwn/public_html/app/Models/UserModel.php(44): CodeIgniter\Database\BaseBuilder->update(500)
+#1 /home/condruwn/public_html/app/Controllers/Admin.php(1139): App\Models\UserModel->updateUser('bbae65c41d38af9...', 500)
+#2 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->approveDeposit()
+#3 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-07 22:51:35 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::update() must be of the type array or null, string given, called in /home/condruwn/public_html/app/Models/UserModel.php on line 44
+#0 /home/condruwn/public_html/app/Models/UserModel.php(44): CodeIgniter\Database\BaseBuilder->update('invested', 500)
+#1 /home/condruwn/public_html/app/Controllers/Admin.php(1139): App\Models\UserModel->updateUser('bbae65c41d38af9...', 500)
+#2 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->approveDeposit()
+#3 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-07 22:59:10 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::update() must be of the type array or null, int given, called in /home/condruwn/public_html/app/Models/UserModel.php on line 44
+#0 /home/condruwn/public_html/app/Models/UserModel.php(44): CodeIgniter\Database\BaseBuilder->update(1000)
+#1 /home/condruwn/public_html/app/Controllers/Admin.php(1139): App\Models\UserModel->updateUser('bbae65c41d38af9...', 1000)
+#2 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->approveDeposit()
+#3 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-07 22:59:56 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::update() must be of the type array or null, string given, called in /home/condruwn/public_html/app/Models/UserModel.php on line 53
+#0 /home/condruwn/public_html/app/Models/UserModel.php(53): CodeIgniter\Database\BaseBuilder->update('invested', 1000)
+#1 /home/condruwn/public_html/app/Controllers/Admin.php(1139): App\Models\UserModel->updateOne('bbae65c41d38af9...', 1000)
+#2 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->approveDeposit()
+#3 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-07 23:03:10 --> Undefined variable: builder
+#0 /home/condruwn/public_html/app/Models/UserModel.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/condruwn/...', 54, Array)
+#1 /home/condruwn/public_html/app/Controllers/Admin.php(1139): App\Models\UserModel->updateOne('bbae65c41d38af9...', 1000)
+#2 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->approveDeposit()
+#3 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-07 23:04:54 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 /home/condruwn/public_html/app/Controllers/Admin.php(1139): App\Models\UserModel->updateOne('bbae65c41d38af9...', 1000)
+#1 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->approveDeposit()
+#2 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-07 23:10:38 --> Undefined property: stdClass::$name
+#0 /home/condruwn/public_html/app/Views/user/profile.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/condruwn/...', 52, Array)
+#1 /home/condruwn/public_html/system/View/View.php(220): include('/home/condruwn/...')
+#2 /home/condruwn/public_html/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/condruwn/public_html/system/Common.php(1217): CodeIgniter\View\View->render('user/profile', Array, true)
+#4 /home/condruwn/public_html/app/Controllers/Users.php(646): view('user/profile', Array)
+#5 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Users->profile()
+#6 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-07 23:19:12 --> Trying to get property 'invested' of non-object
+#0 /home/condruwn/public_html/app/Controllers/Admin.php(1139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/condruwn/...', 1139, Array)
+#1 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->approveDeposit()
+#2 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,20 @@
+CRITICAL - 2021-08-03 23:23:08 --> syntax error, unexpected '$builder' (T_VARIABLE)
+#0 /home/xtrehfuf/Bitsplash.uk/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home/xtrehfuf/...')
+#1 /home/xtrehfuf/Bitsplash.uk/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Inve...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Inve...')
+#3 /home/xtrehfuf/Bitsplash.uk/app/Controllers/Admin.php(32): spl_autoload_call('App\\Models\\Inve...')
+#4 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(936): App\Controllers\Admin->index()
+#5 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/xtrehfuf/Bitsplash.uk/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-03 23:25:11 --> syntax error, unexpected '$builder' (T_VARIABLE), expecting ')'
+#0 /home/xtrehfuf/Bitsplash.uk/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home/xtrehfuf/...')
+#1 /home/xtrehfuf/Bitsplash.uk/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Inve...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Inve...')
+#3 /home/xtrehfuf/Bitsplash.uk/app/Controllers/Admin.php(32): spl_autoload_call('App\\Models\\Inve...')
+#4 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(936): App\Controllers\Admin->index()
+#5 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/xtrehfuf/Bitsplash.uk/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}

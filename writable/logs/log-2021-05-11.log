@@ -1,0 +1,9 @@
+CRITICAL - 2021-05-11 16:59:22 --> Invalid file: users.php
+#0 /home/genurgvd/trademagoptions.online/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users.php')
+#1 /home/genurgvd/trademagoptions.online/system/Common.php(1217): CodeIgniter\View\View->render('users', Array, true)
+#2 /home/genurgvd/trademagoptions.online/app/Controllers/Users.php(30): view('users', Array)
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Users->index()
+#4 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

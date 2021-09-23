@@ -1,0 +1,78 @@
+CRITICAL - 2021-09-15 02:18:12 --> Trying to access array offset on value of type null
+#0 /home/condruwn/public_html/app/Controllers/Users.php(654): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/condruwn/...', 654, Array)
+#1 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Users->history()
+#2 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-15 09:58:27 --> Undefined property: stdClass::$wallet_type
+#0 /home/condruwn/public_html/app/Views/user/profile.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/condruwn/...', 68, Array)
+#1 /home/condruwn/public_html/system/View/View.php(220): include('/home/condruwn/...')
+#2 /home/condruwn/public_html/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/condruwn/public_html/system/Common.php(1217): CodeIgniter\View\View->render('user/profile', Array, true)
+#4 /home/condruwn/public_html/app/Controllers/Users.php(650): view('user/profile', Array)
+#5 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Users->profile()
+#6 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-15 13:47:58 --> Trying to access array offset on value of type null
+#0 /home/condruwn/public_html/app/Controllers/Admin.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/condruwn/...', 25, Array)
+#1 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->index()
+#2 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-15 13:48:01 --> Trying to access array offset on value of type null
+#0 /home/condruwn/public_html/app/Controllers/Admin.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/condruwn/...', 25, Array)
+#1 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->index()
+#2 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-15 14:59:06 --> Trying to access array offset on value of type null
+#0 /home/condruwn/public_html/app/Controllers/Users.php(597): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/condruwn/...', 597, Array)
+#1 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Users->profile()
+#2 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-15 20:52:57 --> Trying to access array offset on value of type null
+#0 /home/condruwn/public_html/app/Controllers/Admin.php(1529): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/condruwn/...', 1529, Array)
+#1 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->pendingDeposit()
+#2 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-15 20:53:37 --> Trying to access array offset on value of type null
+#0 /home/condruwn/public_html/app/Controllers/Admin.php(1529): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/condruwn/...', 1529, Array)
+#1 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->pendingDeposit()
+#2 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-15 20:54:01 --> Trying to access array offset on value of type null
+#0 /home/condruwn/public_html/app/Controllers/Admin.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/condruwn/...', 25, Array)
+#1 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->index()
+#2 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-15 21:08:36 --> Undefined property: CodeIgniter\View\View::$db
+#0 /home/condruwn/public_html/app/Views/admins/pendingWithdrawal.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/condruwn/...', 34, Array)
+#1 /home/condruwn/public_html/system/View/View.php(220): include('/home/condruwn/...')
+#2 /home/condruwn/public_html/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/condruwn/public_html/system/Common.php(1217): CodeIgniter\View\View->render('admins/pendingW...', Array, true)
+#4 /home/condruwn/public_html/app/Controllers/Admin.php(1045): view('admins/pendingW...', Array)
+#5 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->pendingWithdrawal()
+#6 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-15 21:44:43 --> Trying to access array offset on value of type null
+#0 /home/condruwn/public_html/app/Controllers/Users.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/condruwn/...', 28, Array)
+#1 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Users->index()
+#2 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

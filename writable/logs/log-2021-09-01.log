@@ -1,0 +1,166 @@
+CRITICAL - 2021-09-01 01:57:39 --> Invalid file: admins/index.php
+#0 /home/condruwn/public_html/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admins/index.ph...')
+#1 /home/condruwn/public_html/system/Common.php(1217): CodeIgniter\View\View->render('admins/index', Array, true)
+#2 /home/condruwn/public_html/app/Controllers/Admin.php(52): view('admins/index', Array)
+#3 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->index()
+#4 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-01 01:59:28 --> Invalid file: admins/index.php
+#0 /home/condruwn/public_html/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admins/index.ph...')
+#1 /home/condruwn/public_html/system/Common.php(1217): CodeIgniter\View\View->render('admins/index', Array, true)
+#2 /home/condruwn/public_html/app/Controllers/Admin.php(52): view('admins/index', Array)
+#3 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->index()
+#4 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-01 02:06:32 --> Invalid file: admins/pendingWithdrawal.php
+#0 /home/condruwn/public_html/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admins/pendingW...')
+#1 /home/condruwn/public_html/system/Common.php(1217): CodeIgniter\View\View->render('admins/pendingW...', Array, true)
+#2 /home/condruwn/public_html/app/Controllers/Admin.php(255): view('admins/pendingW...', Array)
+#3 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->pendingWithdrawal()
+#4 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-01 02:07:59 --> Invalid file: admins/index.php
+#0 /home/condruwn/public_html/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admins/index.ph...')
+#1 /home/condruwn/public_html/system/Common.php(1217): CodeIgniter\View\View->render('admins/index', Array, true)
+#2 /home/condruwn/public_html/app/Controllers/Admin.php(52): view('admins/index', Array)
+#3 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->index()
+#4 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-01 10:57:25 --> Trying to access array offset on value of type null
+#0 /home/condruwn/public_html/app/Controllers/Users.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/condruwn/...', 26, Array)
+#1 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Users->index()
+#2 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-01 18:45:16 --> Invalid file: admins/index.php
+#0 /home/condruwn/public_html/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admins/index.ph...')
+#1 /home/condruwn/public_html/system/Common.php(1217): CodeIgniter\View\View->render('admins/index', Array, true)
+#2 /home/condruwn/public_html/app/Controllers/Admin.php(52): view('admins/index', Array)
+#3 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->index()
+#4 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-01 21:03:31 --> Trying to access array offset on value of type null
+#0 /home/condruwn/public_html/app/Controllers/Users.php(198): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/condruwn/...', 198, Array)
+#1 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Users->history()
+#2 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-01 21:07:12 --> Trying to access array offset on value of type null
+#0 /home/condruwn/public_html/app/Controllers/Users.php(198): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/condruwn/...', 198, Array)
+#1 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Users->history()
+#2 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-01 21:07:15 --> Trying to access array offset on value of type null
+#0 /home/condruwn/public_html/app/Controllers/Users.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/condruwn/...', 26, Array)
+#1 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Users->index()
+#2 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-01 21:09:37 --> Invalid file: admins/index.php
+#0 /home/condruwn/public_html/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admins/index.ph...')
+#1 /home/condruwn/public_html/system/Common.php(1217): CodeIgniter\View\View->render('admins/index', Array, true)
+#2 /home/condruwn/public_html/app/Controllers/Admin.php(52): view('admins/index', Array)
+#3 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->index()
+#4 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-01 21:17:43 --> Invalid file: admin/index.php
+#0 /home/condruwn/public_html/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/index.php')
+#1 /home/condruwn/public_html/system/Common.php(1217): CodeIgniter\View\View->render('admin/index', Array, true)
+#2 /home/condruwn/public_html/app/Controllers/Admin.php(52): view('admin/index', Array)
+#3 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->index()
+#4 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-01 21:18:18 --> Invalid file: admin/index.php
+#0 /home/condruwn/public_html/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/index.php')
+#1 /home/condruwn/public_html/system/Common.php(1217): CodeIgniter\View\View->render('admin/index', Array, true)
+#2 /home/condruwn/public_html/app/Controllers/Admin.php(52): view('admin/index', Array)
+#3 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->index()
+#4 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-01 21:18:44 --> Invalid file: admin/index.php
+#0 /home/condruwn/public_html/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/index.php')
+#1 /home/condruwn/public_html/system/Common.php(1217): CodeIgniter\View\View->render('admin/index', Array, true)
+#2 /home/condruwn/public_html/app/Controllers/Admin.php(52): view('admin/index', Array)
+#3 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->index()
+#4 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-01 21:18:57 --> Undefined variable: referral
+#0 /home/condruwn/public_html/app/Views/user/index.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/condruwn/...', 108, Array)
+#1 /home/condruwn/public_html/system/View/View.php(220): include('/home/condruwn/...')
+#2 /home/condruwn/public_html/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/condruwn/public_html/system/Common.php(1217): CodeIgniter\View\View->render('user/index', Array, true)
+#4 /home/condruwn/public_html/app/Controllers/Admin.php(52): view('user/index', Array)
+#5 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->index()
+#6 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-01 21:21:02 --> Invalid file: admins/index.php
+#0 /home/condruwn/public_html/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admins/index.ph...')
+#1 /home/condruwn/public_html/system/Common.php(1217): CodeIgniter\View\View->render('admins/index', Array, true)
+#2 /home/condruwn/public_html/app/Controllers/Admin.php(52): view('admins/index', Array)
+#3 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->index()
+#4 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-01 21:21:36 --> Invalid file: admins/users.php
+#0 /home/condruwn/public_html/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admins/users.ph...')
+#1 /home/condruwn/public_html/system/Common.php(1217): CodeIgniter\View\View->render('admins/users', Array, true)
+#2 /home/condruwn/public_html/app/Controllers/Admin.php(122): view('admins/users', Array)
+#3 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->users()
+#4 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-01 21:28:22 --> Invalid file: admins/users.php
+#0 /home/condruwn/public_html/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admins/users.ph...')
+#1 /home/condruwn/public_html/system/Common.php(1217): CodeIgniter\View\View->render('admins/users', Array, true)
+#2 /home/condruwn/public_html/app/Controllers/Admin.php(122): view('admins/users', Array)
+#3 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->users()
+#4 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-01 21:32:33 --> Invalid file: admins/layouts/default.php
+#0 /home/condruwn/public_html/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admins/layouts/...')
+#1 /home/condruwn/public_html/system/View/View.php(236): CodeIgniter\View\View->render('admins/layouts/...', Array, true)
+#2 /home/condruwn/public_html/system/Common.php(1217): CodeIgniter\View\View->render('Admins/index', Array, true)
+#3 /home/condruwn/public_html/app/Controllers/Admin.php(52): view('Admins/index', Array)
+#4 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->index()
+#5 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-01 21:38:02 --> Invalid file: admins/index.php
+#0 /home/condruwn/public_html/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admins/index.ph...')
+#1 /home/condruwn/public_html/system/Common.php(1217): CodeIgniter\View\View->render('admins/index', Array, true)
+#2 /home/condruwn/public_html/app/Controllers/Admin.php(52): view('admins/index', Array)
+#3 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->index()
+#4 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

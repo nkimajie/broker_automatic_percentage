@@ -1,0 +1,20 @@
+ERROR - 2021-08-31 06:46:35 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-08-31 06:46:35 --> Unable to connect to the database.
+#0 /home/condruwn/public_html/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/condruwn/public_html/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/condruwn/public_html/app/Models/UserModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/condruwn/public_html/app/Controllers/Auth.php(123): App\Models\UserModel->getOne(Array)
+#4 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Auth->login()
+#5 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-31 06:59:27 --> Invalid file: admins/index.php
+#0 /home/condruwn/public_html/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admins/index.ph...')
+#1 /home/condruwn/public_html/system/Common.php(1217): CodeIgniter\View\View->render('admins/index', Array, true)
+#2 /home/condruwn/public_html/app/Controllers/Admin.php(52): view('admins/index', Array)
+#3 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Admin->index()
+#4 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

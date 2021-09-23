@@ -1,0 +1,11 @@
+CRITICAL - 2021-07-14 12:59:03 --> 28 : Operation timed out after 150001 milliseconds with 0 out of 0 bytes received
+#0 /home/xtrehfuf/Bitsplash.uk/system/HTTP/CURLRequest.php(805): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('28', 'Operation timed...')
+#1 /home/xtrehfuf/Bitsplash.uk/system/HTTP/CURLRequest.php(418): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 /home/xtrehfuf/Bitsplash.uk/system/HTTP/CURLRequest.php(127): CodeIgniter\HTTP\CURLRequest->send('GET', 'https://api.pri...')
+#3 /home/xtrehfuf/Bitsplash.uk/app/Libraries/App_services.php(25): CodeIgniter\HTTP\CURLRequest->request('GET', 'https://api.pri...')
+#4 /home/xtrehfuf/Bitsplash.uk/app/Controllers/Auth.php(27): App\Libraries\App_services->getCountries()
+#5 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(936): App\Controllers\Auth->register()
+#6 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/xtrehfuf/Bitsplash.uk/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

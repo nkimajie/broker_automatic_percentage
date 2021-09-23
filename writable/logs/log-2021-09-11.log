@@ -1,0 +1,107 @@
+CRITICAL - 2021-09-11 08:44:18 --> Trying to access array offset on value of type null
+#0 /home/condruwn/public_html/app/Controllers/Users.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/condruwn/...', 27, Array)
+#1 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Users->index()
+#2 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-11 08:45:20 --> Undefined property: CodeIgniter\View\View::$uri
+#0 /home/condruwn/public_html/app/Views/user/layouts/default.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/condruwn/...', 64, Array)
+#1 /home/condruwn/public_html/system/View/View.php(220): include('/home/condruwn/...')
+#2 /home/condruwn/public_html/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/condruwn/public_html/system/View/View.php(236): CodeIgniter\View\View->render('user/layouts/de...', Array, true)
+#4 /home/condruwn/public_html/system/Common.php(1217): CodeIgniter\View\View->render('user/index', Array, true)
+#5 /home/condruwn/public_html/app/Controllers/Users.php(47): view('user/index', Array)
+#6 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Users->index()
+#7 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-09-11 08:47:36 --> Undefined property: CodeIgniter\View\View::$uri
+#0 /home/condruwn/public_html/app/Views/user/layouts/default.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/condruwn/...', 64, Array)
+#1 /home/condruwn/public_html/system/View/View.php(220): include('/home/condruwn/...')
+#2 /home/condruwn/public_html/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/condruwn/public_html/system/View/View.php(236): CodeIgniter\View\View->render('user/layouts/de...', Array, true)
+#4 /home/condruwn/public_html/system/Common.php(1217): CodeIgniter\View\View->render('user/index', Array, true)
+#5 /home/condruwn/public_html/app/Controllers/Users.php(47): view('user/index', Array)
+#6 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Users->index()
+#7 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-09-11 09:12:34 --> Call to undefined method CodeIgniter\HTTP\URI::segment()
+#0 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Users->index()
+#1 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-11 09:13:51 --> syntax error, unexpected '$url' (T_VARIABLE), expecting ';' or ','
+#0 /home/condruwn/public_html/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('users')
+#1 /home/condruwn/public_html/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('users')
+#2 /home/condruwn/public_html/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-11 09:14:25 --> Call to undefined method CodeIgniter\HTTP\URI::segment()
+#0 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Users->index()
+#1 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-11 09:14:29 --> Call to undefined method CodeIgniter\HTTP\URI::segment()
+#0 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Users->index()
+#1 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-11 09:15:00 --> syntax error, unexpected '$url' (T_VARIABLE), expecting ';' or ','
+#0 /home/condruwn/public_html/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('users')
+#1 /home/condruwn/public_html/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('users')
+#2 /home/condruwn/public_html/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-11 09:16:48 --> Call to undefined method CodeIgniter\HTTP\URI::segment()
+#0 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Users->index()
+#1 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-11 09:19:44 --> Call to undefined method CodeIgniter\HTTP\URI::segment()
+#0 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Users->index()
+#1 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-11 09:22:09 --> Undefined variable: uri
+#0 /home/condruwn/public_html/app/Controllers/Users.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/condruwn/...', 32, Array)
+#1 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Users->index()
+#2 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-11 09:22:20 --> Undefined variable: uri
+#0 /home/condruwn/public_html/app/Controllers/Users.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/condruwn/...', 32, Array)
+#1 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Users->index()
+#2 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-11 09:24:16 --> Call to undefined method CodeIgniter\HTTP\URI::segment()
+#0 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Users->index()
+#1 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-11 09:26:48 --> Undefined property: CodeIgniter\View\View::$uri
+#0 /home/condruwn/public_html/app/Views/user/layouts/default.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/condruwn/...', 64, Array)
+#1 /home/condruwn/public_html/system/View/View.php(220): include('/home/condruwn/...')
+#2 /home/condruwn/public_html/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/condruwn/public_html/system/View/View.php(236): CodeIgniter\View\View->render('user/layouts/de...', Array, true)
+#4 /home/condruwn/public_html/system/Common.php(1217): CodeIgniter\View\View->render('user/index', Array, true)
+#5 /home/condruwn/public_html/app/Controllers/Users.php(50): view('user/index', Array)
+#6 /home/condruwn/public_html/system/CodeIgniter.php(936): App\Controllers\Users->index()
+#7 /home/condruwn/public_html/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 /home/condruwn/public_html/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/condruwn/public_html/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}

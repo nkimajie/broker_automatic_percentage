@@ -1,0 +1,157 @@
+CRITICAL - 2021-05-20 12:42:04 --> Undefined variable: user_history
+#0 /home/genurgvd/trademagoptions.online/app/Views/admin/users.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/genurgvd/...', 62, Array)
+#1 /home/genurgvd/trademagoptions.online/system/View/View.php(220): include('/home/genurgvd/...')
+#2 /home/genurgvd/trademagoptions.online/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/genurgvd/trademagoptions.online/system/Common.php(1217): CodeIgniter\View\View->render('admin/users', Array, true)
+#4 /home/genurgvd/trademagoptions.online/app/Controllers/Admin.php(60): view('admin/users', Array)
+#5 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Admin->users()
+#6 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-20 12:51:08 --> Undefined property: stdClass::$amount
+#0 /home/genurgvd/trademagoptions.online/app/Views/admin/users.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/genurgvd/...', 68, Array)
+#1 /home/genurgvd/trademagoptions.online/system/View/View.php(220): include('/home/genurgvd/...')
+#2 /home/genurgvd/trademagoptions.online/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/genurgvd/trademagoptions.online/system/Common.php(1217): CodeIgniter\View\View->render('admin/users', Array, true)
+#4 /home/genurgvd/trademagoptions.online/app/Controllers/Admin.php(61): view('admin/users', Array)
+#5 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Admin->users()
+#6 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-20 13:17:50 --> Undefined variable: countries
+#0 /home/genurgvd/trademagoptions.online/app/Views/admin/users.php(131): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/genurgvd/...', 131, Array)
+#1 /home/genurgvd/trademagoptions.online/system/View/View.php(220): include('/home/genurgvd/...')
+#2 /home/genurgvd/trademagoptions.online/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/genurgvd/trademagoptions.online/system/Common.php(1217): CodeIgniter\View\View->render('admin/users', Array, true)
+#4 /home/genurgvd/trademagoptions.online/app/Controllers/Admin.php(61): view('admin/users', Array)
+#5 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Admin->users()
+#6 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-20 13:18:21 --> Undefined property: stdClass::$country
+#0 /home/genurgvd/trademagoptions.online/app/Views/admin/users.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/genurgvd/...', 135, Array)
+#1 /home/genurgvd/trademagoptions.online/system/View/View.php(220): include('/home/genurgvd/...')
+#2 /home/genurgvd/trademagoptions.online/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/genurgvd/trademagoptions.online/system/Common.php(1217): CodeIgniter\View\View->render('admin/users', Array, true)
+#4 /home/genurgvd/trademagoptions.online/app/Controllers/Admin.php(62): view('admin/users', Array)
+#5 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Admin->users()
+#6 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-20 13:54:50 --> syntax error, unexpected '',<br><br> Your Trademagoption' (T_CONSTANT_ENCAPSED_STRING)
+#0 /home/genurgvd/trademagoptions.online/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('admin/users')
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('admin/users')
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-20 15:08:08 --> Undefined variable: title
+#0 /home/genurgvd/trademagoptions.online/app/Views/admin/fragments/head.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/genurgvd/...', 10, Array)
+#1 /home/genurgvd/trademagoptions.online/system/View/View.php(220): include('/home/genurgvd/...')
+#2 /home/genurgvd/trademagoptions.online/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/genurgvd/trademagoptions.online/system/Common.php(1217): CodeIgniter\View\View->render('admin/fragments...', Array, true)
+#4 /home/genurgvd/trademagoptions.online/app/Views/admin/pendingWithdrawal.php(1): view('admin/fragments...')
+#5 /home/genurgvd/trademagoptions.online/system/View/View.php(220): include('/home/genurgvd/...')
+#6 /home/genurgvd/trademagoptions.online/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /home/genurgvd/trademagoptions.online/system/Common.php(1217): CodeIgniter\View\View->render('admin/pendingWi...', Array, true)
+#8 /home/genurgvd/trademagoptions.online/app/Controllers/Admin.php(283): view('admin/pendingWi...', Array)
+#9 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Admin->pendingWithdrawal()
+#10 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-05-20 15:08:43 --> Undefined variable: verifiedUsers
+#0 /home/genurgvd/trademagoptions.online/app/Views/admin/pendingWithdrawal.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/genurgvd/...', 64, Array)
+#1 /home/genurgvd/trademagoptions.online/system/View/View.php(220): include('/home/genurgvd/...')
+#2 /home/genurgvd/trademagoptions.online/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/genurgvd/trademagoptions.online/system/Common.php(1217): CodeIgniter\View\View->render('admin/pendingWi...', Array, true)
+#4 /home/genurgvd/trademagoptions.online/app/Controllers/Admin.php(284): view('admin/pendingWi...', Array)
+#5 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Admin->pendingWithdrawal()
+#6 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-20 15:09:31 --> Undefined property: stdClass::$method
+#0 /home/genurgvd/trademagoptions.online/app/Views/admin/pendingWithdrawal.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/genurgvd/...', 71, Array)
+#1 /home/genurgvd/trademagoptions.online/system/View/View.php(220): include('/home/genurgvd/...')
+#2 /home/genurgvd/trademagoptions.online/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/genurgvd/trademagoptions.online/system/Common.php(1217): CodeIgniter\View\View->render('admin/pendingWi...', Array, true)
+#4 /home/genurgvd/trademagoptions.online/app/Controllers/Admin.php(285): view('admin/pendingWi...', Array)
+#5 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Admin->pendingWithdrawal()
+#6 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-05-20 16:22:51 --> mysqli_sql_exception: Column 'status' in where clause is ambiguous in /home/genurgvd/trademagoptions.online/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/genurgvd/trademagoptions.online/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT `investe...')
+#1 /home/genurgvd/trademagoptions.online/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `investe...')
+#2 /home/genurgvd/trademagoptions.online/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `investe...')
+#3 /home/genurgvd/trademagoptions.online/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `investe...', Array, false)
+#4 /home/genurgvd/trademagoptions.online/app/Models/InvestedModel.php(80): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/genurgvd/trademagoptions.online/app/Controllers/Admin.php(41): App\Models\InvestedModel->getPendingWithdrawal()
+#6 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Admin->index()
+#7 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-20 16:22:51 --> Column 'status' in where clause is ambiguous
+#0 /home/genurgvd/trademagoptions.online/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT `investe...')
+#1 /home/genurgvd/trademagoptions.online/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `investe...')
+#2 /home/genurgvd/trademagoptions.online/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `investe...')
+#3 /home/genurgvd/trademagoptions.online/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `investe...', Array, false)
+#4 /home/genurgvd/trademagoptions.online/app/Models/InvestedModel.php(80): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/genurgvd/trademagoptions.online/app/Controllers/Admin.php(41): App\Models\InvestedModel->getPendingWithdrawal()
+#6 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Admin->index()
+#7 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-20 16:25:19 --> Call to undefined method App\Models\InvestedModel::getVerifiedUsers
+#0 /home/genurgvd/trademagoptions.online/app/Controllers/Admin.php(245): CodeIgniter\Model->__call('getVerifiedUser...', Array)
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Admin->pendingWithdrawal()
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-20 16:32:26 --> Undefined property: stdClass::$firstname
+#0 /home/genurgvd/trademagoptions.online/app/Views/admin/pendingWithdrawal.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/genurgvd/...', 70, Array)
+#1 /home/genurgvd/trademagoptions.online/system/View/View.php(220): include('/home/genurgvd/...')
+#2 /home/genurgvd/trademagoptions.online/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/genurgvd/trademagoptions.online/system/Common.php(1217): CodeIgniter\View\View->render('admin/pendingWi...', Array, true)
+#4 /home/genurgvd/trademagoptions.online/app/Controllers/Admin.php(286): view('admin/pendingWi...', Array)
+#5 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Admin->pendingWithdrawal()
+#6 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-20 16:40:22 --> Cannot redeclare App\Controllers\Admin::approveUser()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-20 17:36:14 --> Cannot redeclare App\Models\InvestedModel::getPendingDeposit()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-20 17:41:39 --> Invalid file: admin/declinedDeposit.php
+#0 /home/genurgvd/trademagoptions.online/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/declinedD...')
+#1 /home/genurgvd/trademagoptions.online/system/Common.php(1217): CodeIgniter\View\View->render('admin/declinedD...', Array, true)
+#2 /home/genurgvd/trademagoptions.online/app/Controllers/Admin.php(397): view('admin/declinedD...', Array)
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Admin->declinedDeposit()
+#4 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-20 19:22:36 --> Undefined variable: pendingWithdrawal
+#0 /home/genurgvd/trademagoptions.online/app/Views/admin/deactivated.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/genurgvd/...', 65, Array)
+#1 /home/genurgvd/trademagoptions.online/system/View/View.php(220): include('/home/genurgvd/...')
+#2 /home/genurgvd/trademagoptions.online/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/genurgvd/trademagoptions.online/system/Common.php(1217): CodeIgniter\View\View->render('admin/deactivat...', Array, true)
+#4 /home/genurgvd/trademagoptions.online/app/Controllers/Admin.php(469): view('admin/deactivat...', Array)
+#5 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Admin->deactivated()
+#6 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

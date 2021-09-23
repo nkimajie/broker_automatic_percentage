@@ -1,0 +1,24 @@
+CRITICAL - 2021-07-05 12:38:14 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\bit\app\Views\landing\layout\default.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 112)
+#1 C:\xampp\htdocs\bit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bit\system\View\View.php(236): CodeIgniter\View\View->render('landing/layout/...', Array, true)
+#4 C:\xampp\htdocs\bit\system\Common.php(1217): CodeIgniter\View\View->render('landing/home', Array, true)
+#5 C:\xampp\htdocs\bit\app\Controllers\Home.php(15): view('landing/home', Array)
+#6 C:\xampp\htdocs\bit\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\bit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\bit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\bit\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-07-05 12:38:20 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\bit\app\Views\landing\layout\default.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 112)
+#1 C:\xampp\htdocs\bit\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\bit\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\bit\system\View\View.php(236): CodeIgniter\View\View->render('landing/layout/...', Array, true)
+#4 C:\xampp\htdocs\bit\system\Common.php(1217): CodeIgniter\View\View->render('landing/home', Array, true)
+#5 C:\xampp\htdocs\bit\app\Controllers\Home.php(15): view('landing/home', Array)
+#6 C:\xampp\htdocs\bit\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\bit\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\bit\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\bit\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}

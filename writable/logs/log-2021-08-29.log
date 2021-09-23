@@ -1,0 +1,84 @@
+CRITICAL - 2021-08-29 19:09:00 --> Invalid file: users/layouts/default.php
+#0 C:\xampp\htdocs\tony3\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/layouts/d...')
+#1 C:\xampp\htdocs\tony3\system\View\View.php(236): CodeIgniter\View\View->render('users/layouts/d...', Array, true)
+#2 C:\xampp\htdocs\tony3\system\Common.php(1217): CodeIgniter\View\View->render('user/index', Array, true)
+#3 C:\xampp\htdocs\tony3\app\Controllers\Users.php(43): view('user/index', Array)
+#4 C:\xampp\htdocs\tony3\system\CodeIgniter.php(936): App\Controllers\Users->index()
+#5 C:\xampp\htdocs\tony3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\tony3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tony3\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-29 19:09:25 --> Invalid file: users/layouts/default.php
+#0 C:\xampp\htdocs\tony3\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/layouts/d...')
+#1 C:\xampp\htdocs\tony3\system\View\View.php(236): CodeIgniter\View\View->render('users/layouts/d...', Array, true)
+#2 C:\xampp\htdocs\tony3\system\Common.php(1217): CodeIgniter\View\View->render('user/index', Array, true)
+#3 C:\xampp\htdocs\tony3\app\Controllers\Users.php(43): view('user/index', Array)
+#4 C:\xampp\htdocs\tony3\system\CodeIgniter.php(936): App\Controllers\Users->index()
+#5 C:\xampp\htdocs\tony3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\tony3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tony3\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-29 19:09:27 --> Invalid file: users/layouts/default.php
+#0 C:\xampp\htdocs\tony3\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/layouts/d...')
+#1 C:\xampp\htdocs\tony3\system\View\View.php(236): CodeIgniter\View\View->render('users/layouts/d...', Array, true)
+#2 C:\xampp\htdocs\tony3\system\Common.php(1217): CodeIgniter\View\View->render('user/index', Array, true)
+#3 C:\xampp\htdocs\tony3\app\Controllers\Users.php(43): view('user/index', Array)
+#4 C:\xampp\htdocs\tony3\system\CodeIgniter.php(936): App\Controllers\Users->index()
+#5 C:\xampp\htdocs\tony3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\tony3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tony3\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-29 19:09:28 --> Invalid file: users/layouts/default.php
+#0 C:\xampp\htdocs\tony3\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/layouts/d...')
+#1 C:\xampp\htdocs\tony3\system\View\View.php(236): CodeIgniter\View\View->render('users/layouts/d...', Array, true)
+#2 C:\xampp\htdocs\tony3\system\Common.php(1217): CodeIgniter\View\View->render('user/index', Array, true)
+#3 C:\xampp\htdocs\tony3\app\Controllers\Users.php(43): view('user/index', Array)
+#4 C:\xampp\htdocs\tony3\system\CodeIgniter.php(936): App\Controllers\Users->index()
+#5 C:\xampp\htdocs\tony3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\tony3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tony3\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-29 19:09:40 --> Invalid file: users/layouts/default.php
+#0 C:\xampp\htdocs\tony3\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/layouts/d...')
+#1 C:\xampp\htdocs\tony3\system\View\View.php(236): CodeIgniter\View\View->render('users/layouts/d...', Array, true)
+#2 C:\xampp\htdocs\tony3\system\Common.php(1217): CodeIgniter\View\View->render('user/index', Array, true)
+#3 C:\xampp\htdocs\tony3\app\Controllers\Users.php(43): view('user/index', Array)
+#4 C:\xampp\htdocs\tony3\system\CodeIgniter.php(936): App\Controllers\Users->index()
+#5 C:\xampp\htdocs\tony3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\tony3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tony3\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-29 21:22:17 --> Invalid file: users/layouts/default.php
+#0 C:\xampp\htdocs\tony3\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/layouts/d...')
+#1 C:\xampp\htdocs\tony3\system\View\View.php(236): CodeIgniter\View\View->render('users/layouts/d...', Array, true)
+#2 C:\xampp\htdocs\tony3\system\Common.php(1217): CodeIgniter\View\View->render('user/index', Array, true)
+#3 C:\xampp\htdocs\tony3\app\Controllers\Users.php(43): view('user/index', Array)
+#4 C:\xampp\htdocs\tony3\system\CodeIgniter.php(936): App\Controllers\Users->index()
+#5 C:\xampp\htdocs\tony3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\tony3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tony3\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-29 21:29:42 --> Undefined variable $page_title
+#0 C:\xampp\htdocs\tony3\app\Views\user\layouts\default.php(400): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 400)
+#1 C:\xampp\htdocs\tony3\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tony3\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tony3\system\View\View.php(236): CodeIgniter\View\View->render('user/layouts/de...', Array, true)
+#4 C:\xampp\htdocs\tony3\system\Common.php(1217): CodeIgniter\View\View->render('user/index', Array, true)
+#5 C:\xampp\htdocs\tony3\app\Controllers\Users.php(43): view('user/index', Array)
+#6 C:\xampp\htdocs\tony3\system\CodeIgniter.php(936): App\Controllers\Users->index()
+#7 C:\xampp\htdocs\tony3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 C:\xampp\htdocs\tony3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tony3\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 22:59:15 --> Undefined variable $page_title
+#0 C:\xampp\htdocs\tony3\app\Views\user\layouts\default.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 122)
+#1 C:\xampp\htdocs\tony3\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tony3\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tony3\system\View\View.php(236): CodeIgniter\View\View->render('user/layouts/de...', Array, true)
+#4 C:\xampp\htdocs\tony3\system\Common.php(1217): CodeIgniter\View\View->render('user/deposit', Array, true)
+#5 C:\xampp\htdocs\tony3\app\Controllers\Users.php(334): view('user/deposit', Array)
+#6 C:\xampp\htdocs\tony3\system\CodeIgniter.php(936): App\Controllers\Users->deposit()
+#7 C:\xampp\htdocs\tony3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 C:\xampp\htdocs\tony3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tony3\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}

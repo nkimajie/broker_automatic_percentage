@@ -1,0 +1,93 @@
+CRITICAL - 2021-07-08 00:06:29 --> Undefined variable: request
+#0 /home/xtrehfuf/Bitsplash.uk/app/Controllers/Auth.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/xtrehfuf/...', 57, Array)
+#1 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(936): App\Controllers\Auth->register()
+#2 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/xtrehfuf/Bitsplash.uk/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-08 00:26:46 --> syntax error, unexpected ';', expecting ']'
+#0 /home/xtrehfuf/Bitsplash.uk/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home/xtrehfuf/...')
+#1 /home/xtrehfuf/Bitsplash.uk/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/xtrehfuf/Bitsplash.uk/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-08 00:27:15 --> Undefined variable: request
+#0 /home/xtrehfuf/Bitsplash.uk/app/Controllers/Auth.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/xtrehfuf/...', 57, Array)
+#1 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(936): App\Controllers\Auth->register()
+#2 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/xtrehfuf/Bitsplash.uk/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-08 00:30:11 --> Undefined index: id
+#0 /home/xtrehfuf/Bitsplash.uk/app/Controllers/Auth.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/xtrehfuf/...', 57, Array)
+#1 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(936): App\Controllers\Auth->register()
+#2 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/xtrehfuf/Bitsplash.uk/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-08 02:15:57 --> Undefined property: App\Controllers\Auth::$uri
+#0 /home/xtrehfuf/Bitsplash.uk/app/Controllers/Auth.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/xtrehfuf/...', 57, Array)
+#1 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(936): App\Controllers\Auth->register()
+#2 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/xtrehfuf/Bitsplash.uk/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-08 02:19:35 --> Too few arguments to function App\Controllers\Auth::register(), 0 passed in /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php on line 936 and exactly 1 expected
+#0 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(936): App\Controllers\Auth->register()
+#1 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/xtrehfuf/Bitsplash.uk/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-08 02:19:53 --> Too few arguments to function App\Controllers\Auth::register(), 0 passed in /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php on line 936 and exactly 1 expected
+#0 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(936): App\Controllers\Auth->register()
+#1 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/xtrehfuf/Bitsplash.uk/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-08 02:24:19 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 /home/xtrehfuf/Bitsplash.uk/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home/xtrehfuf/...')
+#1 /home/xtrehfuf/Bitsplash.uk/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/xtrehfuf/Bitsplash.uk/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-08 02:46:23 --> count(): Parameter must be an array or an object that implements Countable
+#0 /home/xtrehfuf/Bitsplash.uk/app/Views/users/index.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/home/xtrehfuf/...', 121, Array)
+#1 /home/xtrehfuf/Bitsplash.uk/system/View/View.php(220): include('/home/xtrehfuf/...')
+#2 /home/xtrehfuf/Bitsplash.uk/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/xtrehfuf/Bitsplash.uk/system/Common.php(1217): CodeIgniter\View\View->render('users/index', Array, true)
+#4 /home/xtrehfuf/Bitsplash.uk/app/Controllers/Users.php(43): view('users/index', Array)
+#5 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(936): App\Controllers\Users->index()
+#6 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/xtrehfuf/Bitsplash.uk/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-08 02:46:25 --> count(): Parameter must be an array or an object that implements Countable
+#0 /home/xtrehfuf/Bitsplash.uk/app/Views/users/index.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/home/xtrehfuf/...', 121, Array)
+#1 /home/xtrehfuf/Bitsplash.uk/system/View/View.php(220): include('/home/xtrehfuf/...')
+#2 /home/xtrehfuf/Bitsplash.uk/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/xtrehfuf/Bitsplash.uk/system/Common.php(1217): CodeIgniter\View\View->render('users/index', Array, true)
+#4 /home/xtrehfuf/Bitsplash.uk/app/Controllers/Users.php(43): view('users/index', Array)
+#5 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(936): App\Controllers\Users->index()
+#6 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/xtrehfuf/Bitsplash.uk/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-08 02:47:43 --> count(): Parameter must be an array or an object that implements Countable
+#0 /home/xtrehfuf/Bitsplash.uk/app/Views/users/index.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/home/xtrehfuf/...', 121, Array)
+#1 /home/xtrehfuf/Bitsplash.uk/system/View/View.php(220): include('/home/xtrehfuf/...')
+#2 /home/xtrehfuf/Bitsplash.uk/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/xtrehfuf/Bitsplash.uk/system/Common.php(1217): CodeIgniter\View\View->render('users/index', Array, true)
+#4 /home/xtrehfuf/Bitsplash.uk/app/Controllers/Users.php(43): view('users/index', Array)
+#5 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(936): App\Controllers\Users->index()
+#6 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 /home/xtrehfuf/Bitsplash.uk/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/xtrehfuf/Bitsplash.uk/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

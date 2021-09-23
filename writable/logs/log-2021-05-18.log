@@ -1,0 +1,39 @@
+CRITICAL - 2021-05-18 06:17:40 --> Trying to get property 'firstname' of non-object
+#0 /home/genurgvd/trademagoptions.online/app/Views/users/deposit.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/genurgvd/...', 69, Array)
+#1 /home/genurgvd/trademagoptions.online/system/View/View.php(220): include('/home/genurgvd/...')
+#2 /home/genurgvd/trademagoptions.online/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/genurgvd/trademagoptions.online/system/Common.php(1217): CodeIgniter\View\View->render('users/deposit', Array, true)
+#4 /home/genurgvd/trademagoptions.online/app/Controllers/Users.php(270): view('users/deposit', Array)
+#5 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Users->deposit()
+#6 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-18 06:38:55 --> Undefined variable: session
+#0 /home/genurgvd/trademagoptions.online/app/Controllers/Auth.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/genurgvd/...', 163, Array)
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Auth->activate('bc136a68b548ef3...')
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-18 06:42:33 --> syntax error, unexpected ')', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 /home/genurgvd/trademagoptions.online/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('auth/activate/b...')
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('auth/activate/b...')
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-18 07:45:09 --> Cannot redeclare App\Controllers\Users::deposit()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-18 21:18:28 --> Trying to get property 'firstname' of non-object
+#0 /home/genurgvd/trademagoptions.online/app/Views/users/withdrawal.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/genurgvd/...', 73, Array)
+#1 /home/genurgvd/trademagoptions.online/system/View/View.php(220): include('/home/genurgvd/...')
+#2 /home/genurgvd/trademagoptions.online/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/genurgvd/trademagoptions.online/system/Common.php(1217): CodeIgniter\View\View->render('users/withdrawa...', Array, true)
+#4 /home/genurgvd/trademagoptions.online/app/Controllers/Users.php(378): view('users/withdrawa...', Array)
+#5 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Users->withdrawal()
+#6 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

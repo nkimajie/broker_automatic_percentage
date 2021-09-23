@@ -1,0 +1,96 @@
+CRITICAL - 2021-05-21 00:26:56 --> Undefined variable: user_model
+#0 /home/genurgvd/trademagoptions.online/app/Controllers/Auth.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/genurgvd/...', 261, Array)
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Auth->reset('7321174f3ba9d79...')
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-21 00:34:54 --> syntax error, unexpected '$user' (T_VARIABLE)
+#0 /home/genurgvd/trademagoptions.online/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('auth/reset/7321...')
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('auth/reset/7321...')
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-21 00:46:23 --> Undefined variable: title
+#0 /home/genurgvd/trademagoptions.online/app/Views/landing/reset.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/genurgvd/...', 8, Array)
+#1 /home/genurgvd/trademagoptions.online/system/View/View.php(220): include('/home/genurgvd/...')
+#2 /home/genurgvd/trademagoptions.online/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/genurgvd/trademagoptions.online/system/Common.php(1217): CodeIgniter\View\View->render('landing/reset', Array, true)
+#4 /home/genurgvd/trademagoptions.online/app/Controllers/Auth.php(317): view('landing/reset', Array)
+#5 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Auth->reset('7321174f3ba9d79...')
+#6 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-21 01:17:08 --> syntax error, unexpected ';', expecting ']'
+#0 /home/genurgvd/trademagoptions.online/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('auth/reset/7321...')
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('auth/reset/7321...')
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-21 01:17:35 --> Too few arguments to function App\Controllers\Auth::reset(), 0 passed in /home/genurgvd/trademagoptions.online/system/CodeIgniter.php on line 936 and exactly 1 expected
+#0 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Auth->reset()
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-21 01:23:39 --> Too few arguments to function App\Controllers\Auth::reset(), 0 passed in /home/genurgvd/trademagoptions.online/system/CodeIgniter.php on line 936 and exactly 1 expected
+#0 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Auth->reset()
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-21 10:36:04 --> Undefined property: stdClass::$invested_id
+#0 /home/genurgvd/trademagoptions.online/app/Views/admin/index.php(241): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/genurgvd/...', 241, Array)
+#1 /home/genurgvd/trademagoptions.online/system/View/View.php(220): include('/home/genurgvd/...')
+#2 /home/genurgvd/trademagoptions.online/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/genurgvd/trademagoptions.online/system/Common.php(1217): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 /home/genurgvd/trademagoptions.online/app/Controllers/Admin.php(48): view('admin/index', Array)
+#5 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Admin->index()
+#6 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-21 11:27:10 --> mathces is not a valid rule.
+#0 /home/genurgvd/trademagoptions.online/system/Validation/Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('mathces')
+#1 /home/genurgvd/trademagoptions.online/system/Validation/Validation.php(164): CodeIgniter\Validation\Validation->processRules('confirm_passwor...', 'confirm_passwor...', '12345', Array, Array)
+#2 /home/genurgvd/trademagoptions.online/system/Controller.php(181): CodeIgniter\Validation\Validation->run()
+#3 /home/genurgvd/trademagoptions.online/app/Controllers/Auth.php(287): CodeIgniter\Controller->validate(Array)
+#4 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Auth->newPassword()
+#5 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-21 11:36:38 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 /home/genurgvd/trademagoptions.online/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('auth/reset/7321...')
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('auth/reset/7321...')
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-21 11:38:57 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 /home/genurgvd/trademagoptions.online/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('auth/reset/7321...')
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('auth/reset/7321...')
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-21 12:03:25 --> mathces is not a valid rule.
+#0 /home/genurgvd/trademagoptions.online/system/Validation/Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('mathces')
+#1 /home/genurgvd/trademagoptions.online/system/Validation/Validation.php(164): CodeIgniter\Validation\Validation->processRules('confirm_passwor...', 'confirm_passwor...', '123456', Array, Array)
+#2 /home/genurgvd/trademagoptions.online/system/Controller.php(181): CodeIgniter\Validation\Validation->run()
+#3 /home/genurgvd/trademagoptions.online/app/Controllers/Auth.php(272): CodeIgniter\Controller->validate(Array)
+#4 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(936): App\Controllers\Auth->reset('7321174f3ba9d79...')
+#5 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-21 12:08:13 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 /home/genurgvd/trademagoptions.online/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('auth/reset/7321...')
+#1 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('auth/reset/7321...')
+#2 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/genurgvd/trademagoptions.online/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/genurgvd/trademagoptions.online/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

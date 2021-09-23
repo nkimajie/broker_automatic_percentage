@@ -1,0 +1,22 @@
+ERROR - 2021-06-21 16:07:07 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-06-21 16:07:07 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\btc\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\btc\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\btc\app\Models\UserModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\btc\app\Controllers\Auth.php(111): App\Models\UserModel->getOne(Array)
+#4 C:\xampp\htdocs\btc\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#5 C:\xampp\htdocs\btc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp\htdocs\btc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\btc\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-06-21 16:13:49 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-06-21 16:13:49 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\btc\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\btc\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\btc\app\Models\UserModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\btc\app\Controllers\Auth.php(111): App\Models\UserModel->getOne(Array)
+#4 C:\xampp\htdocs\btc\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#5 C:\xampp\htdocs\btc\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp\htdocs\btc\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\btc\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
